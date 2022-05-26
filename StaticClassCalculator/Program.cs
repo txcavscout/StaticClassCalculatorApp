@@ -12,7 +12,7 @@ namespace StaticClassCalculator
         {
             UserMessages.WelcomeMessage();
 
-            int operatorChoice = GetUserData.GetMathOperand("Enter your choice.\n1. Add\n2. Subtract\n3. Multiply\n4.Divide: ");
+            int operatorChoice = GetUserData.GetMathOperand("Enter your choice.\n1. Add\n2. Subtract\n3. Multiply\n4.Divide\nChoice: ");
 
             ProgramLogic.UserChoice(operatorChoice);
 
